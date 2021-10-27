@@ -1,6 +1,6 @@
 void game(){
   
-  drawRoom();
+  gameRoom();
   drawGameObjects();
   //drawLightLayer();
   //drawMiniMap();
@@ -14,7 +14,7 @@ void game(){
   //myHero.show();
   //myHero.act();
 }
-void drawRoom(){
+void gameRoom(){
  background(DARKGREEN);
  //corners
  stroke(BLACK);
