@@ -1,5 +1,4 @@
 //Jake Choi
-//October 20, 2021
 //1-4
 
 boolean upkey,leftkey,downkey,rightkey,spacekey;
