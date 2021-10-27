@@ -16,16 +16,13 @@ void game(){
 }
 void gameRoom(){
  background(DARKGREEN);
- //corners
  stroke(BLACK);
- strokeWeight(3);
+ strokeWeight(8);
  line(0,0,width,height);
  line(width,0,0,height);
- 
- //floor
  stroke(DARKGREEN);
  fill(BLACK);
- rect(width/2,height/2,width-100,height-75);
+ rect(width/2,height/2,width-100,height-100);
 }
 
 void drawGameObjects(){
