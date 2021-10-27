@@ -18,7 +18,7 @@ class AnimatedGIF {
       pics[i] = loadImage(pre+i+post);
       i++;
     }
-    frame = 0;//start gif starting frame 
+    frame = 0;
   }
   
   AnimatedGIF(int nf, String pre, String post, float locx, float locy, float wth, float hgt){//nf is temporary
