@@ -26,11 +26,11 @@ void setup(){
   textAlign(CENTER,CENTER);
   imageMode(CENTER);
   // GIF
-  myGIF = new AnimatedGIF(10,"frame_" , "_delay-0.07s.gif", width/2, height/2, width, height);
+  //myGIF = new AnimatedGIF(10,"frame_" , "_delay-0.07s.gif", width/2, height/2, width, height);
   //create objects
-  myObjects = new ArrayList<GameObject>(1000);
-  myHero = new Hero();
-  myObjects.add(myHero);
+  //myObjects = new ArrayList<GameObject>(1000);
+  //myHero = new Hero();
+  //myObjects.add(myHero);
 }
 
 void draw(){
