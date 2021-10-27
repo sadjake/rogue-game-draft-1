@@ -2,7 +2,7 @@ AnimatedGIF myGIF;
 
 class AnimatedGIF {
   PImage[] pics;
-  int numberofFrames;//permanent variable
+  int numberofFrames;
   int frame;
   float x,y,w,h;
 
@@ -21,7 +21,7 @@ class AnimatedGIF {
     frame = 0;
   }
   
-  AnimatedGIF(int nf, String pre, String post, float locx, float locy, float wth, float hgt){//nf is temporary
+  AnimatedGIF(int nf, String pre, String post, float locx, float locy, float wth, float hgt){
     x = locx;
     y = locy;
     w = wth;
@@ -35,8 +35,6 @@ class AnimatedGIF {
     }
     frame = 0;
   }
- 
-  //show function
   void show(){
     imageMode(CENTER);
     if (frame == numberofFrames) frame = 0;
