@@ -21,7 +21,7 @@ color WHITE = #FFFFFF;
 
 void setup(){
   mode = INTRO;
-  size(800,800,FX2D);
+  size(800,800,P2D);
   rectMode(CENTER);
   textAlign(CENTER,CENTER);
   imageMode(CENTER);
