@@ -2,7 +2,7 @@ AnimatedGIF myGIF;
 
 class AnimatedGIF {
   PImage[] pics;
-  int numberofFrames;//permanent variable
+  int numberofFrames;
   int frame;
   float x,y,w,h;
 
