@@ -10,7 +10,7 @@ class Button extends GameObject {
   boolean clicked;
   
   //constructors
-  Button(String _text, int _x, int _y, int _w, int _h, color _normal, color _highlight){//no clicked because you don't start it clicked
+  Button(String _text, int _x, int _y, int _w, int _h, color _normal, color _highlight){
     x = _x;
     y = _y;
     w = _w;
@@ -23,7 +23,7 @@ class Button extends GameObject {
   
   void show(){
     rectMode(CENTER);
-    if (mouseX > x - w/2 && mouseX < x + w/2 && mouseY > y - h/2 && mouseY < y + h/2){//in button
+    if (mouseX > x - w/2 && mouseX < x + w/2 && mouseY > y - h/2 && mouseY < y + h/2){
       fill(DARKGREEN);
     } else {
       fill(MINT);
