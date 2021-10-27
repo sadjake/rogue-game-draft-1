@@ -4,13 +4,13 @@ boolean wasPressed;
 Button button;
 class Button extends GameObject {
   //instance  variables
-  float x,y,w,h;//can also use PVector
-  String text; //string for text
+  float x,y,w,h;
+  String text;
   color normal, highlight;
-  boolean clicked;//use boolean for clicks 
+  boolean clicked;
   
   //constructors
-  Button(String _text, int _x, int _y, int _w, int _h, color _normal, color _highlight){//no clicked because you don't start it clicked
+  Button(String _text, int _x, int _y, int _w, int _h, color _normal, color _highlight){
     x = _x;
     y = _y;
     w = _w;
