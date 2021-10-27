@@ -4,7 +4,7 @@ class Hero extends GameObject{
   int rx, ry;
   
   Hero(){
-    super();//gameobject constructor
+    super();
     speed = 5;
     rx = 1;
     ry = 1;
@@ -18,19 +18,14 @@ class Hero extends GameObject{
 
   void act(){
     super.act();
-    
     //move
     if (upkey) velocity.y = -speed;
     if (leftkey) velocity.x = -speed; 
     if (downkey) velocity.y = speed;
     if (rightkey) velocity.x = speed; 
-    
-    //same diagonal speed
     if(velocity.mag() > 5) velocity.setMag(speed);
-    
-    //stop
-    if (!leftkey && !rightkey) velocity.x = 0;
-    if (!downkey && !upkey) velocity.y = 0;
+    //if (!leftkey && !rightkey) velocity.x = 0;
+    //if (!downkey && !upkey) velocity.y = 0;
   }
   
 }
