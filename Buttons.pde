@@ -23,7 +23,7 @@ class Button extends GameObject {
   
   void show(){
     rectMode(CENTER);
-    if (mouseX > x - w/2 && mouseX < x + w/2 && mouseY > y - h/2 && mouseY < y + h/2){//in button
+    if (mouseX > x - w/2 && mouseX < x + w/2 && mouseY > y - h/2 && mouseY < y + h/2){
       fill(DARKGREEN);
     } else {
       fill(MINT);
